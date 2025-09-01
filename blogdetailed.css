@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(245, 243, 243);
+}
+.t{
+    font-size: small;
+}
+a{
+    text-decoration: none;
+}
+.req::after{
+    content: "*";
+    color:rgb(204, 19, 19);
+    font-size: 20px;
+}
+.hv p:hover{
+    color:gold;
+}

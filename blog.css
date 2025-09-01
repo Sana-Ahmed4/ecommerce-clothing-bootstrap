@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(245, 243, 243);
+   
+}
+section li:hover{
+    background-color: rgb(184, 182, 182);
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin:3px;
+}
+.a1{
+    background-color: white;
+    border-color: white;
+    color:black;
+    
+}
+.a1:hover{
+    background-color: black;
+    color:white;
+}
+.a1:active{
+    background-color: black;
+    color:white;
+}
+.hv p:hover{
+    color:gold;
+}
+.white:hover{
+    background-color: white;
+    border-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

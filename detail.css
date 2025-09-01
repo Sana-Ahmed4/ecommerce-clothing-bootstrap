@@ -1,0 +1,88 @@
+
+.tl{
+    position:relative;
+}
+.tl1{
+    position: absolute;
+    bottom:100%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: x-small;
+    visibility: hidden;
+  
+}
+.tl1::after{
+    content: "";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -10%;
+    border-width:5px;
+    border-style:solid;
+    border-color: black transparent transparent transparent;
+}
+.tl:hover .tl1{
+    visibility: visible;
+}
+.bh{
+    background-color: black;
+    transition-property: background-color;
+    /* transition-duration: 2s; */
+    
+}
+.bh:hover{
+    background-color: rgb(194, 47, 47);
+
+}
+a{
+    text-decoration: none;
+}
+
+.thumb-img{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 14px;
+    object-fit: cover;
+    object-position:  bottom;
+}
+
+.slick{
+    margin:auto;
+}
+
+.slick-prev:before, .slick-next:before{
+    color:black;
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+.slck .slick-center .sl{
+    
+    transform: scale(1.05);
+  
+   
+}
+
+.middle {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+   
+  }
+  .off{
+    position: absolute;
+    right: 35%;
+    top: 10px;
+    font-size: x-small;
+}
